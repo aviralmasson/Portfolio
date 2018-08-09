@@ -22,6 +22,7 @@ body a{
 }
 .navigation {
   margin-top: 2em;
+  margin-left: 5em;
 }
 ul.navig{
   padding:5px;
@@ -233,12 +234,20 @@ ul.navig li a:hover,ul.navig li.active a{
   padding:4em 0px;
   border-bottom: 10px solid blue;
 }
-.footer-left h3,.footer-right h3{
+.footer-left h3, .footer-right h3{
   font-size:1.7em;
-  margin:0;
   font-weight:700;
   color:#8e8d8d;
-  margin-left:20px;
+  margin-left:25px;
+
+}
+.footer-right p
+{
+
+  margin-right:160px;
+
+
+
 }
 
 
