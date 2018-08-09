@@ -6,7 +6,7 @@ p {margin: 0;}
 html, body{
   font-family: 'barlow_semi_condensedblack';
   font-size: 100%;
-  background:black;
+  background:white  ;
 }
 body a{
   transition:0.5s all;
@@ -33,7 +33,7 @@ ul.navig li {
   list-style: none;
   display: inline-block;
   float: left;
-  background: black;
+  background: grey;
   border-right: 1px solid #000;
 }
 ul.navig li a {
@@ -238,7 +238,10 @@ ul.navig li a:hover,ul.navig li.active a{
   margin:0;
   font-weight:700;
   color:#8e8d8d;
+  margin-left:20px;
 }
+
+
 .footer-left ul,.footer-right ul{
   padding:0;
   margin-top:2em;
@@ -316,8 +319,10 @@ ul.navig li a:hover,ul.navig li.active a{
 }
 .footer-text {
   margin-top: 10px;
+  font-family: Calibri;
 }
 .footer-text p{
+  font-family: Calibri;
   color: #686868;
   font-size: 15px;
   font-weight: 700;
